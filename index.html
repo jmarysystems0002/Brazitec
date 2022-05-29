@@ -633,8 +633,8 @@ fverde   { color: #339900; }
                                     onMouseover="this.style.color='#0000FF'; " 
                                     onMouseout="this.style.color='#000000';" 
                                     target="_parent"
-                                    href="login_web_0001/login_web_0001.html"> 
-                                    Financeiro&nbsp;
+                                    href="index.html"> 
+                                    Página Inicial&nbsp;
                                 </a>  
                             </td>
                         </tr>
@@ -801,6 +801,132 @@ fverde   { color: #339900; }
 
 
 
+
+
+
+
+
+
+
+
+
+<!-- 
+-0
+-1
+-2
+ --> 
+<!--- #### COLUNA 1.1 AJUDA INÍCIO #### --> 
+<!-- 
+-0
+-1
+-2    
+-->
+    <li 
+        style="
+            height: 100%; float:    left;    position: relative; 
+            width:  120px; overflow: visible;"
+        
+        onMouseover="
+            this.style.backgroundColor='#23871C'; 
+            this.style.color='#3A3A3A';  
+            document.getElementById('coluna11tb').style.display = 'block'; "
+            
+        onMouseout="
+            this.style.backgroundColor='#3A3A3A';                               
+            document.getElementById('coluna11tb').style.display = 'none';  "
+    >
+
+        <a 
+            href="Area/quem_somos.html"  
+            target="centro"
+            style="
+            
+                cursor: pointer;
+                color:           #fff; font-family:  Arial, Helvetica, sans-serif; 
+                font-size:       16px; padding-left: 10px; 
+                padding-right:   10px; line-height:  50px; 
+                text-decoration: none;"
+           
+            onMouseover=" this.style.color='black'; "
+            onMouseout="  this.style.color='#fff'; "       
+        > 
+            Quem Somos </a>              
+    </li>  
+<!-- 
+-0
+-1
+-2
+- #### COLUNA 1.1 AJUDA FIM #### --> 
+<!-- 
+-0
+-1
+-2    
+--> 
+
+
+
+
+
+
+
+<!-- 
+-0
+-1
+-2
+ --> 
+<!--- #### COLUNA 1.1 AJUDA INÍCIO #### --> 
+<!-- 
+-0
+-1
+-2    
+-->
+    <li 
+        style="
+            height: 100%; float:    left;    position: relative; 
+            width:  127px; overflow: visible;"
+        
+        onMouseover="
+            this.style.backgroundColor='#23871C'; 
+            this.style.color='#3A3A3A';  
+            document.getElementById('coluna11tb').style.display = 'block'; "
+            
+        onMouseout="
+            this.style.backgroundColor='#3A3A3A';                               
+            document.getElementById('coluna11tb').style.display = 'none';  "
+    >
+
+        <a 
+            href="Area/onde_estamos.html"  
+            target="centro"
+            style="
+            
+                cursor: pointer;
+                color:           #fff; font-family:  Arial, Helvetica, sans-serif; 
+                font-size:       16px; padding-left: 10px; 
+                padding-right:   10px; line-height:  50px; 
+                text-decoration: none;"
+           
+            onMouseover=" this.style.color='black'; "
+            onMouseout="  this.style.color='#fff'; "       
+        > 
+            Onde Estamos </a>              
+    </li>  
+<!-- 
+-0
+-1
+-2
+- #### COLUNA 1.1 AJUDA FIM #### --> 
+<!-- 
+-0
+-1
+-2    
+--> 
+
+
+
+
+
+
 <!-- 
 -0
 -1
@@ -858,12 +984,12 @@ fverde   { color: #339900; }
                         this.style.cursor='default';  "
                     
                     onClick="
-                        window.open('login.html', '_parent');
+                        window.open('index.html', '_parent');
                         document.getElementById('coluna2tb')    .style.display = 'none';
                     "
                 > 
                     <a 
-                        target="_parent" href="login_web_0001/login_web_0001.html"
+                        target="_parent" href="index.html"
                         style="
                             text-decoration: none; color: #fff; font-family: Arial, Helvetica, sans-serif; 
                             font-size: 14px;"
@@ -872,7 +998,7 @@ fverde   { color: #339900; }
                             document.getElementById('coluna4tb').style.display = 'none'; 
                         "
                     >
-                            FINANCEIRO</a> 
+                            PÁGINA INICIAL</a> 
                 </td> 
             </tr> 
             
@@ -950,7 +1076,7 @@ fverde   { color: #339900; }
 <script type="text/javascript">
 function resizeIframe() {
     var height2 = document.documentElement.clientHeight;
-    var height3 = height2*6; 
+    var height3 = height2 * 3; 
     var height = height2 + height3; 
     
     document.getElementById('centro').style.height = height +"px"; //  - height +"px" - para ficar do tamanho da página
